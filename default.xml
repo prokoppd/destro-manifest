@@ -12,7 +12,7 @@
 
   <!-- Your custom layers -->
   <project name="meta-destro" path="meta-destro" revision="main" />
-  <project name="meta-raspberrypi" path="meta-raspberrypi" revision="scarthgap" remote="raspberypi"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" revision="scarthgap" remote="raspberrypi"/>
 
   <!-- Optional scripts -->
   <!-- <project name="yocto-scripts" path="scripts" revision="main" /> -->
