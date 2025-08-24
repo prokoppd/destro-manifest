@@ -11,7 +11,7 @@
 
   <!-- Your custom layers -->
   <project name="meta-destro" path="meta-destro" revision="main"/>
-  <project name="meta-openembedded" path="meta-openembedded" revision="scarthgap" remote="yocto"/>
+  <project name="openembedded-core" path="meta-openembedded" revision="scarthgap" remote="yocto"/>
   <project name="meta-raspberrypi" path="meta-raspberrypi" revision="scarthgap" remote="yocto"/>
 
   <!-- Optional scripts -->
