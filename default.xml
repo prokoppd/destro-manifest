@@ -4,7 +4,7 @@
   <default revision="main" remote="origin" sync-j="4" />
 
   <!-- Define remote repository URL -->
-  <remote name="origin" fetch="git@github.com:prokoppd/destro-manifest.git" />
+  <remote name="origin" fetch="https://github.com/prokoppd/meta-destro.git" />
   <remote name="raspberrypi" fetch="https://git.yoctoproject.org/meta-raspberrypi/" />
 
   <!-- Yocto upstream layer -->
