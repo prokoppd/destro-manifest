@@ -4,15 +4,14 @@
   <default revision="main" remote="origin" sync-j="4" />
 
   <!-- Define remote repository URL -->
-  <remote name="origin" fetch="https://github.com/prokoppd/meta-destro.git" />
-  <remote name="raspberrypi" fetch="https://git.yoctoproject.org/meta-raspberrypi/" />
-  <remote name="remote-poky" fetch="git://git.yoctoproject.org/poky.git" />
+  <remote name="origin" fetch="https://github.com/prokoppd/" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
   <!-- Yocto upstream layer -->
-  <project name="poky" path="poky" revision="scarthgap" remote="remote-poky"/>
+  <project name="poky" path="poky" revision="scarthgap" remote="yocto"/>
 
   <!-- Your custom layers -->
-  <project name="meta-destro" path="meta-destro" revision="main" />
-  <project name="meta-raspberrypi" path="meta-raspberrypi" revision="scarthgap" remote="raspberrypi"/>
+  <project name="meta-destro" path="meta-destro" revision="main"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" revision="scarthgap" remote="yocto"/>
 
   <!-- Optional scripts -->
   <!-- <project name="yocto-scripts" path="scripts" revision="main" /> -->
